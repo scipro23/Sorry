@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #000; /* Black background */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.05); /* Slight transparent box */
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #ff4c4c; /* Soft red */
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #ddd;
+}
